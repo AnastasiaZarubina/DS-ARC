@@ -268,6 +268,101 @@ declare module "styled-components" {
                     active: string;
                 };
             };
+        };
+
+        typography: {
+            fontFamily: {
+                heading: string;
+                text: string;
+                component: string;
+                monospace: string;
+            };
+            fontSize: {
+                heading: {
+                    h1: string;
+                    h2: string;
+                    h3: string;
+                    h4: string;
+                    h5: string;
+                    h6: string;
+                };
+                text: {
+                    base: string;
+                    small: string;
+                    extraSmall: string;
+                };
+                component: {
+                    base: string;
+                    small: string;
+                    extraSmall: string;
+                };
+            };
+            lineHeight: {
+                heading: {
+                    h1: string;
+                    h2: string;
+                    h3: string;
+                    h4: string;
+                    h5: string;
+                    h6: string;
+                };
+                text: {
+                    base: string;
+                    small: string;
+                    extraSmall: string;
+                };
+                component: {
+                    base: string;
+                    small: string;
+                    extraSmall: string;
+                };
+            };
+            fontWeight: {
+                regular: string;
+                medium: string;
+                semiBold: string;
+                bold: string;
+            };
+        };
+
+        spasing: {
+            inner: {
+                closest: string;
+                close: string;
+                related: string;
+                grouped: string;
+                subSection: string;
+                section: string;
+            };
+            outer: {
+                related: string;
+                grouped: string;
+                subSection: string;
+                section: string;
+            };
+            padding: {
+                compact: string;
+                default: string;
+                middle: string;
+                relaxed: string;
+                large: string;
+            };
+            height: {
+                xxxxSmall: string;
+                xxxSmall: string;
+                xxSmal: string;
+                xSmall: string;
+                small: string;
+                base: string;
+                large: string;
+                xLarge: string;
+                xxLarge: string;
+            };
+        };
+
+        borderRadius: {
+            micro: string;
+            rounded: string;
         }
     }
 }
